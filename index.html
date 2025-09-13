@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GELIKE</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;700&family=Baloo+2:wght@400;500&display=swap" rel="stylesheet">
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              'primary': '#f77bb0', // Bright Pink
+              'on-primary': '#ffffff',
+              'primary-container': '#ffd8e2',
+              'on-primary-container': '#3f0019',
+              'secondary': '#ea4a89', // Medium Pink
+              'on-secondary': '#ffffff',
+              'secondary-container': '#ffd7ef',
+              'on-secondary-container': '#39002f',
+              'background': '#fff7f9', // Very light pink
+              'on-background': '#2c1a1d',
+              'surface': '#fff7f9',
+              'on-surface': '#2c1a1d',
+              'surface-variant': '#fcd0e4', // Pastel Pink
+              'on-surface-variant': '#514346',
+              'outline': '#e8c4cb',
+            },
+            borderRadius: {
+              'xl': '12px',
+              '2xl': '16px',
+              '3xl': '24px',
+              '4xl': '32px',
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      html {
+        scroll-behavior: smooth;
+      }
+      body {
+        font-family: 'Baloo 2', cursive;
+        font-weight: 400;
+        background-color: #fff7f9;
+      }
+      h1, h2, h3, h4, h5, h6 {
+        font-family: 'Fredoka', sans-serif;
+        font-weight: 700;
+      }
+      .font-medium { font-weight: 500; }
+      .font-bold { font-weight: 700; }
+
+      @keyframes fadeInUp {
+        from {
+          opacity: 0;
+          transform: translateY(20px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+      .animate-fade-in-up {
+        animation: fadeInUp 0.6s ease-out forwards;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://aistudiocdn.com/react@^19.1.1/",
+    "react": "https://aistudiocdn.com/react@^19.1.1",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.1.1/"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>
