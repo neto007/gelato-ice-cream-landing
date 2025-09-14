@@ -16,7 +16,7 @@ const SpecialOffer: React.FC = () => {
           </div>
           <div className="md:w-1/2 mt-8 md:mt-0">
             <img 
-              src="/assets/4c0adc12-b318-4831-b036-b00ee64d9b3f (1).svg" 
+              src="/assets/tortas/Trufa.svg" 
               alt="Delicious ice cream cake" 
               className="rounded-3xl shadow-md w-full"
             />

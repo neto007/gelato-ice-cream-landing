@@ -208,36 +208,68 @@ export const MILKSHAKES: Flavor[] = [
 // TORTAS DE SORVETE
 export const TORTAS: Flavor[] = [
   {
-    id: "strawberry-dream-cake",
-    name: "Torta Sonho de Morango",
-    description: "Torta de sorvete de morango com base de biscoito e cobertura de chantilly.",
-    imageUrl: "https://picsum.photos/id/1080/400/400",
-    bgColor: "bg-pink-200",
-    price: 45.99
-  },
-  {
-    id: "chocolate-volcano-cake",
-    name: "Torta Vulcão de Chocolate",
-    description: "Torta de sorvete de chocolate com calda quente e brownie crocante.",
-    imageUrl: "/assets/4c0adc12-b318-4831-b036-b00ee64d9b3f (1).svg",
-    bgColor: "bg-yellow-800/20",
+    id: "trufa-cake",
+    name: "Torta Trufa",
+    description: "Torta de sorvete de trufa com chocolate belga e cobertura cremosa.",
+    imageUrl: "/assets/tortas/Trufa.svg",
+    bgColor: "bg-amber-800/20",
     price: 52.99
   },
   {
-    id: "vanilla-bean-cake",
-    name: "Torta Êxtase de Baunilha",
-    description: "Torta clássica de sorvete de baunilha com biscoito champagne e frutas vermelhas.",
-    imageUrl: "https://picsum.photos/id/219/400/400",
-    bgColor: "bg-yellow-100",
-    price: 42.99
+    id: "bombom-cake",
+    name: "Torta Bombom",
+    description: "Torta de sorvete sabor bombom com recheio de chocolate e avelã.",
+    imageUrl: "/assets/tortas/bombom.svg",
+    bgColor: "bg-yellow-800/20",
+    price: 48.99
   },
   {
-    id: "minty-chip-cake",
-    name: "Torta Delícia de Menta",
-    description: "Torta refrescante de sorvete de menta com gotas de chocolate e base de Oreo.",
-    imageUrl: "https://picsum.photos/id/106/400/400",
-    bgColor: "bg-green-200",
-    price: 48.99
+    id: "napolitano-cake",
+    name: "Torta Napolitano",
+    description: "Torta clássica três sabores: baunilha, chocolate e morango em camadas.",
+    imageUrl: "/assets/tortas/napolitano.svg",
+    bgColor: "bg-gradient-to-r from-yellow-200 via-yellow-800/20 to-pink-200",
+    price: 45.99
+  },
+  {
+    id: "abacaxi-cake",
+    name: "Torta Abacaxi Tropical",
+    description: "Torta refrescante de sorvete de abacaxi com pedaços da fruta.",
+    imageUrl: "/assets/tortas/abacaxi.svg",
+    bgColor: "bg-yellow-200",
+    price: 46.99
+  },
+  {
+    id: "chocolate-cake",
+    name: "Torta Chocolate Premium",
+    description: "Torta intensa de sorvete de chocolate com cobertura especial.",
+    imageUrl: "/assets/tortas/chocolate.svg",
+    bgColor: "bg-yellow-800/20",
+    price: 49.99
+  },
+  {
+    id: "flocos-cake",
+    name: "Torta Flocos",
+    description: "Torta cremosa de sorvete sabor flocos com cereais crocantes.",
+    imageUrl: "/assets/tortas/flocos.svg",
+    bgColor: "bg-blue-200",
+    price: 47.99
+  },
+  {
+    id: "floresta-negra-cake",
+    name: "Torta Floresta Negra",
+    description: "Torta sofisticada com sorvete de chocolate, cerejas e chantilly.",
+    imageUrl: "/assets/tortas/floresta_negra.svg",
+    bgColor: "bg-red-800/20",
+    price: 54.99
+  },
+  {
+    id: "maracuja-cake",
+    name: "Torta Maracujá",
+    description: "Torta tropical de sorvete de maracujá com sementes crocantes.",
+    imageUrl: "/assets/tortas/maracuja.svg",
+    bgColor: "bg-orange-200",
+    price: 46.99
   }
 ];
 

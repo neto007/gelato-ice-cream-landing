@@ -16,7 +16,7 @@ const MilkShakeCard: React.FC<MilkShakeCardProps> = ({ milkshake }) => {
 
   return (
     <div className="bg-surface-variant/50 rounded-3xl p-6 flex flex-col items-center text-center transform hover:-translate-y-2 transition-transform duration-300 ease-in-out">
-      <img src={milkshake.imageUrl} alt={milkshake.name} className="w-48 rounded-2xl shadow-md mb-4 border-4 border-white" />
+      <img src={milkshake.imageUrl} alt={milkshake.name} className="hover:scale-125 transition-transform duration-300 ease-in-out" />
       <h3 className="text-2xl font-bold text-secondary">{milkshake.name}</h3>
       <p className="text-on-surface-variant mt-2 text-md mb-3">{milkshake.description}</p>
       <div className="flex items-center justify-between w-full mt-auto">
